@@ -75,9 +75,8 @@
         </dependency>
         <!--AMQP依赖-->
         <dependency>
-            <groupId>org.springframework.amqp</groupId>
-            <artifactId>spring-amqp</artifactId>
-            <scope>provided</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
         <!--Spring整合Rabbit依赖-->
         <dependency>
